@@ -1,0 +1,91 @@
+@import './reset.css';
+@import './colors.css';
+@import './fonts.css';
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	font-size: 100%;
+
+	scroll-behavior: smooth;
+}
+
+body {
+	font-size: 1rem;
+	font-family: 'Archia';
+
+	background-color: var(--secondary-color-1);
+	color: var(--text-color-1);
+}
+
+/* View Container  */
+.ViewGRID {
+	font-size: 8px;
+
+	display: grid;
+	align-content: flex-start;
+	align-items: flex-start;
+	justify-content: center;
+
+	grid-template-columns: repeat(12, 1fr);
+
+	column-gap: 2em;
+	row-gap: 4em;
+
+	padding-bottom: 4em;
+
+	min-height: 100vh;
+}
+
+/* Section Container  */
+.SectionGRID {
+	font-size: 8px;
+
+	display: grid;
+	align-content: flex-start;
+	align-items: flex-start;
+	justify-content: center;
+
+	grid-template-columns: repeat(12, 1fr);
+
+	column-gap: 2em;
+	row-gap: 2em;
+
+	padding: 0 2em;
+}
+
+/* Container */
+.ContainerGRID {
+	font-size: 8px;
+
+	display: grid;
+	justify-content: center;
+	align-content: flex-start;
+
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(12, 1fr);
+
+	column-gap: 1em;
+	row-gap: 1em;
+}
+
+/* Mobile - BreakPoint */
+@media screen and (min-width: 200px) and (max-width: 340px) {
+}
+
+/* Desktop - Mobile BreakPoint */
+@media screen and (min-width: 1024px) {
+}
+
+@media screen and (min-width: 1360px) {
+}
+
+@media screen and (min-width: 1920px) {
+}

@@ -1,0 +1,50 @@
+:root {
+	--text-color-1: #000;
+	--text-color-2: #3e4859;
+	--text-color-3: #606060;
+	--text-color-4: #b3b3b3;
+
+	--primary-color-1: #cb7820;
+	--primary-color-2: #dd8629;
+	--primary-color-3: #e19341;
+	--primary-color-4: #e5a159;
+	--primary-color-5: #e9ae70;
+	--primary-color-6: #f7ebde;
+
+	--secondary-color-1: #ffffff;
+
+	--error-color-1: #ff2525;
+	--error-color-2: #a01325;
+	--error-color-3: #b81b30;
+	--error-color-4: #cd273d;
+	--error-color-5: #dd384e;
+	--error-color-6: #e95065;
+
+	--warning-color-1: #ff7d00;
+	--warning-color-2: #a08d13;
+	--warning-color-3: #b8a31b;
+	--warning-color-4: #cdb627;
+	--warning-color-5: #ddc738;
+	--warning-color-6: #e9d550;
+
+	--success-color-1: #0cc665;
+	--success-color-2: #6ca013;
+	--success-color-3: #7eb81b;
+	--success-color-4: #90cd27;
+	--success-color-5: #a1dd38;
+	--success-color-6: #b1e950;
+
+	--neutral-color-1: #111827;
+	--neutral-color-2: #374151;
+	--neutral-color-3: #4b5563;
+	--neutral-color-4: #706967;
+	--neutral-color-5: #b8b4b4;
+	--neutral-color-6: #dddfe2;
+
+	--accent-color-1: #c1e5c0;
+	--accent-color-2: #c0dae5;
+	--accent-color-3: #fdd9d9;
+	--accent-color-4: #ffc3d8;
+	--accent-color-5: #a0dcff;
+	--accent-color-6: #d9e8ef;
+}

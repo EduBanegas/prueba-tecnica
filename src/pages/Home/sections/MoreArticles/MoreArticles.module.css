@@ -1,0 +1,51 @@
+/* More Articles -> Section*/
+.moreArticles {
+	grid-column: 1/-1;
+
+	min-height: 400px;
+}
+
+/* Subtitle */
+.moreArticles h4 {
+	grid-column: 1/8;
+
+	font: var(--subtitle-2-semibold);
+	color: var(--TextColor3);
+}
+
+/* Search Input */
+.moreArticles .searchInput {
+	grid-column: 1/8;
+}
+
+.moreArticles h6 {
+	grid-column: 1/-1;
+
+	font: var(--subtitle-2-semibold);
+	color: var(--TextColor4);
+
+	text-align: center;
+	margin: 2em 0;
+}
+
+/* Desktop - Media queries */
+@media screen and (min-width: 1024px) {
+	.moreArticles {
+		grid-column: 2/-2;
+		padding: 0 0 !important;
+	}
+
+	.moreArticles h4 {
+		grid-column: 1/4;
+	}
+
+	.moreArticles .searchInput {
+		grid-column: 1/4;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.moreArticles {
+		grid-column: 3/-3;
+	}
+}

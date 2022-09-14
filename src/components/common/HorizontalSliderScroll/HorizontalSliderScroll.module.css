@@ -1,0 +1,32 @@
+.horizontalSliderScroll {
+	grid-column: 1/-1;
+
+	display: grid;
+	align-items: center;
+	justify-content: flex-start;
+
+	grid-auto-flow: column;
+	grid-auto-columns: 36em;
+	column-gap: 2em;
+
+	grid-template-rows: 64em;
+
+	padding-bottom: 1em;
+	padding-right: 2em;
+
+	overflow-x: scroll;
+}
+
+@media screen and (min-width: 1024px) {
+	.horizontalSliderScroll {
+		grid-auto-columns: auto;
+
+		overflow-x: hidden;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.horizontalSliderScroll {
+		grid-template-rows: 60em;
+	}
+}

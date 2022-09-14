@@ -1,0 +1,77 @@
+@font-face {
+	font-family: 'Archia';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Archia'), url('../assets/fonts/Archia/Archia-Light.otf');
+}
+
+@font-face {
+	font-family: 'Archia';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Archia'), url('../assets/fonts/Archia/Archia-Regular.otf');
+}
+
+@font-face {
+	font-family: 'Archia';
+	font-style: normal;
+	font-weight: 500;
+	src: local('Archia'), url('../assets/fonts/Archia/Archia-Medium.otf');
+}
+
+@font-face {
+	font-family: 'Archia';
+	font-style: normal;
+	font-weight: 600;
+	src: local('Archia'), url('../assets/fonts/Archia/Archia-SemiBold.otf');
+}
+
+@font-face {
+	font-family: 'Archia';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Archia'), url('../assets/fonts/Archia/Archia-Bold.otf');
+}
+
+:root {
+	/* Headline 1 */
+	--headline-1-bold: normal 700 4.5rem/116px Archia;
+
+	/* Headline 2 */
+	--headline-2-light: normal 300 3rem/64px Archia;
+	--headline-2-bold: normal 700 3rem/64px Archia;
+
+	/* Headline 3 */
+	--headline-3-light: normal 300 2.25rem/56px Archia;
+	--headline-3: normal 400 2.25rem/56px Archia;
+	--headline-3-bold: normal 700 2.25rem/40px Archia;
+
+	/* Subtitle 1 */
+	--subtitle-1-light: normal 300 2rem/48px Archia;
+
+	/* Subtitle 2 */
+	--subtitle-2-light: normal 300 1.5rem/32px Archia;
+	--subtitle-2: normal 400 1.5rem/32px Archia;
+	--subtitle-2-semibold: normal 600 1.5rem/32px Archia;
+	--subtitle-2-bold: normal 700 1.5rem/32px Archia;
+
+	/* Subtitle 3 */
+	--subtitle-3: normal 400 1.125rem/32px Archia;
+	--subtitle-3-semibold: normal 600 1.125rem/32px Archia;
+	--subtitle-3-bold: normal 700 1.125rem/32px Archia;
+
+	/* Body 1 */
+	--body-1: normal 400 1rem/28px Archia;
+	--body-1-medium: normal 500 1rem/28px Archia;
+	--body-1-semibold: normal 600 1rem/28px Archia;
+	--body-1-bold: normal 700 1rem/28px Archia;
+
+	/* Body 2 */
+	--body-2: normal 400 0.9375rem/28px Archia;
+	--body-2-medium: normal 500 0.9375rem/28px Archia;
+	--body-2-semibold: normal 600 0.9375rem/28px Archia;
+	--body-2-bold: normal 700 0.9375rem/28px Archia;
+
+	/* Caption */
+	--caption-1-bold: normal 700 0.875rem/20px Archia;
+}

@@ -1,0 +1,81 @@
+/* Container */
+.table {
+	grid-column: 1/-1;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	row-gap: 2em;
+}
+
+/* Card */
+.table div {
+	display: grid;
+	grid-template-columns: 32% 68%;
+
+	height: 40em;
+	max-height: 40em;
+	width: 100%;
+	max-width: 100%;
+
+	border-radius: 8px;
+	overflow: hidden;
+
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+/* T Head - T Body */
+.table div thead,
+.table div tbody {
+	display: flex;
+	align-content: stretch;
+	justify-content: stretch;
+}
+
+.table div thead {
+	background-color: var(--primary-color-6);
+}
+
+.table div tbody {
+}
+
+/* Tr */
+.table div thead tr,
+.table div tbody tr {
+	display: grid;
+	grid-template-rows: 20% 60% 20%;
+
+	height: 100%;
+	width: 100%;
+}
+
+/* Td */
+.table div thead tr td,
+.table div tbody tr td {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+
+	padding: 1em 2em;
+
+	box-sizing: border-box;
+
+	border-bottom: 0.1px solid #b3b3b39c;
+}
+
+.table div thead tr td p {
+	font: var(--body-2-semibold);
+	color: var(--text-color-3);
+}
+
+.table div tbody tr td p {
+	font: var(--body-2-medium);
+	color: var(--text-color-2);
+}
+
+@media screen and (min-width: 1024px) {
+	.table {
+		display: none;
+	}
+}
